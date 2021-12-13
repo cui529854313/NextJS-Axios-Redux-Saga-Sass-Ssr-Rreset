@@ -1,0 +1,52 @@
+.body {
+    background: rgb(236, 236, 236);
+  }
+  .title {
+    height: 100px;
+    background: rgb(121, 242, 157);
+  }
+  .TabArea {
+    width: 60vw;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 75px;
+    height: 1000px;
+    position: relative;
+    .TabBar {
+      background: rgb(255, 255, 255);
+      margin-left: 15px;
+    }
+    .TimeFilter {
+      // background: rgb(156, 40, 40);
+      position: absolute;
+      left: 52vw;
+      top: 2vh;
+      z-index: 2;
+    }
+  }
+  .LoginFrame{
+    width: 100vw;
+    height: 110vh;
+    // background: rgb(202, 202, 202);
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and(max-width:420px) {
+    .TabArea {
+      width: 65vw;
+    }
+  }
+  
+  .a {
+    background: red;
+    color: white;
+  }
+  .b {
+    background: rgb(3, 3, 3);
+    color: white;
+  }
+  
