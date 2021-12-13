@@ -13,6 +13,6 @@ function *checkItem({payload}){
 export default function *index(){
     yield takeEvery("changeUserData",checkItem)
 }
-//根据你传递过来type,决定执行哪个generator生成;
+//根据你传递过来type,决定执行哪个generator生成器;
 
 
